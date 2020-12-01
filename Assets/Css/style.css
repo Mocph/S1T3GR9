@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 html body {
     margin: 0;
     padding: 0;
@@ -94,8 +96,14 @@ img {
         "mad billede5";
     } 
 
+<<<<<<< HEAD
     body {background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
     background-repeat: repeat;
     }
+=======
+    body {background-image: url(../Image/jule\ halløj.PNG) 
+        ;
+    background-repeat: repeat;}
+>>>>>>> b078f5ee2ea3d1a9fdc6b4b824c87e5f7782dbea
 }
 
