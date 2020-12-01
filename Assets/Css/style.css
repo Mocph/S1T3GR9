@@ -81,6 +81,7 @@ img {
     }
 
    .container {
+       text-align: center;
         grid-template-columns: 49% 49%;
         grid-template-rows: auto auto auto auto auto auto;
         grid-column-gap: 2%;
@@ -95,7 +96,18 @@ img {
         "mad billede5";
     } 
 
+<<<<<<< HEAD
     body {background-image: url(../Image/jule\ halløj.PNG);
+=======
+<<<<<<< HEAD
+    body {background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
+    background-repeat: repeat;
+    }
+=======
+    body {background-image: url(../Image/jule\ halløj.PNG) 
+        ;
+>>>>>>> 3d01e8af37fab6d5b7584a11707bc06cb9bfa527
     background-repeat: repeat;}
+>>>>>>> b078f5ee2ea3d1a9fdc6b4b824c87e5f7782dbea
 }
 
