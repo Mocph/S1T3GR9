@@ -79,6 +79,7 @@ img {
     }
 
    .container {
+       text-align: center;
         grid-template-columns: 49% 49%;
         grid-template-rows: auto auto auto auto auto auto;
         grid-column-gap: 2%;
@@ -93,7 +94,8 @@ img {
         "mad billede5";
     } 
 
-    body {background-image: url(../Image/jule\ halløj.PNG);
-    background-repeat: repeat;}
+    body {background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
+    background-repeat: repeat;
+    }
 }
 
