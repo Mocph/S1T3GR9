@@ -16,6 +16,7 @@ html body {
 .video {
     grid-area: video;
     width: 100%;
+    
 }
 
 .jul {
@@ -95,7 +96,7 @@ img {
         "mad billede5";
     } 
 HEAD
-     h1 {text-align: center;}
+     h2 {text-align: center;}
     body {background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
     background-repeat: repeat;
     }
