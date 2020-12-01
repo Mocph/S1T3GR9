@@ -84,7 +84,8 @@ img {
         grid-column-gap: 2%;
         grid-template-areas: 
         "video video"
-        "billede1 jul"
+        "jul jul"
+        "billede1 åbent"
         "billet billede2"
         "billede3 billede3"
         "program program"
