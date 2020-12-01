@@ -10,7 +10,7 @@ html body {
         width: 100%;
         height: 50px;
     }
-   .grid {
+   .container {
     border: none;
     width: 100%;
     margin: auto;
@@ -72,11 +72,15 @@ html body {
     grid-area: billede3;
 }
 
-
 .billede4 {
     grid-area: billede4;
 }
 
 .billede5 {
     grid-area: billede5;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
