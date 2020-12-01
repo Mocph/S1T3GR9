@@ -28,56 +28,55 @@ html body {
         "mad billede5";
     } 
 
-    .video {
-        grid-area: video;
-        width: 100%;
-    }
+}
 
-    .jul {
-        grid-area: jul;
-    }
+.video {
+    grid-area: video;
+    width: 100%;
+}
 
-    .billet {
-        grid-area: billet;
-    }
+.jul {
+    grid-area: jul;
+}
 
-    .åbningstider {
-        grid-area: åbent;
-    }
+.billet {
+    grid-area: billet;
+}
 
-    .program {
-        grid-area: program;
-    }
+.åbningstider {
+    grid-area: åbent;
+}
 
-    .mad {
-        grid-area: mad;
-    }
+.program {
+    grid-area: program;
+}
 
-    .covid {
-        grid-area: covid;
-    }
+.mad {
+    grid-area: mad;
+}
 
-    .billede1 {
-        grid-area: billede1;
-    }
-       
-    
-    .billede2 {
-       grid-area: billede2;
-    }
-    
-    .billede3 {
-        grid-area: billede3;
-    }
-    
-    
-    .billede4 {
-        grid-area: billede4;
-    }
-    
-    .billede5 {
-        grid-area: billede5;
-    }
+.covid {
+    grid-area: covid;
+}
+
+.billede1 {
+    grid-area: billede1;
+}
+   
+
+.billede2 {
+   grid-area: billede2;
+}
+
+.billede3 {
+    grid-area: billede3;
 }
 
 
+.billede4 {
+    grid-area: billede4;
+}
+
+.billede5 {
+    grid-area: billede5;
+}
