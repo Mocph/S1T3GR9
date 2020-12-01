@@ -73,6 +73,11 @@ img {
         height: 100px;
     }
 
+    .logo {
+        height: 50px;
+        width: auto;
+    }
+
    .container {
         grid-template-columns: 49% 49%;
         grid-template-rows: auto auto auto auto auto auto;
