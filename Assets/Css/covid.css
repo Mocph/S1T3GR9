@@ -12,8 +12,10 @@ body {
 
 .logo {
     width: 30%;
-
 }
+
+.navbarmobil {float: right;
+padding: 7px;}
 
 .headtop {
     grid-area: header;
@@ -49,6 +51,7 @@ body {
     text-shadow: 0.5px 0.5px 1px #9d836752;
 }
 
+p {padding-top: 10px;}
 .container {
     border: none;
     margin: auto;
