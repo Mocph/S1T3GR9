@@ -24,6 +24,7 @@ box-sizing: border-box;}
 .navbar {padding-top:120px;
 padding-right: 100px;}
 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -34,17 +35,17 @@ header {
 
 }
 
-ul {
+.navbar ul {
     list-style: none;
     font-size: 30px;
     ;
 }
 
-ul li {
+.navbar ul li {
     display: inline;
     padding: 30px;}
 
-ul li a {margin: 0;
+.navbar ul li a {margin: 0;
 padding: 0;}
 
 .video {
@@ -99,8 +100,8 @@ padding: 0;}
 }
 
 img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
 }
 
 @media screen and (max-width: 399px) {
@@ -134,7 +135,6 @@ HEAD
     body {background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
     background-repeat: repeat;
     }
-
 
 
 
