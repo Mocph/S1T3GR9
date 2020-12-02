@@ -107,6 +107,11 @@ img {
     height: auto;
 } 
 
+#logomobil #burger {
+    width: 50px;
+    height: 50px;
+}
+
 @media screen and (max-width: 399px) {
     header {
         display: block;
@@ -122,10 +127,7 @@ img {
         display: inline-block;
         clear: both;
     }
-    .logo {
-        height: 50px;
-        width: auto;
-    }
+
 
    .container {
         grid-template-columns: 49% 49%;
