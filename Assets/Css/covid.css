@@ -12,8 +12,9 @@ body {
 
 .logo {
     width: 30%;
-
 }
+
+.navbarmobil {float: right;}
 
 .headtop {
     grid-area: header;
@@ -52,12 +53,12 @@ body {
 .container {
     border: none;
     margin: auto;
-    display: grid;
+    /* display: grid;
     grid-template-areas: 
     "header"
     "heroimage"
     "content2"
-    "menulist";
+    "menulist"; */
 }
 
 
