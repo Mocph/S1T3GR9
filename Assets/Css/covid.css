@@ -9,13 +9,20 @@ body {
     background-image: url(../image/jule\ halløj\ med\ opacity.jpg);
     background-repeat: repeat;
 }
+header {height: 100px;
+background-color: white;
+}
 
 .logo {
     width: 30%;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .navbarmobil {float: right;
-padding: 7px;}
+
+padding-right: 20px;
+padding-top: 30px ;}
 
 .headtop {
     grid-area: header;
@@ -63,7 +70,22 @@ p {padding-top: 10px;}
     "menulist";
 }
 
+.footerlogo {float: left;
+width: 100px;}
 
+.footerbillede {float: right;
+padding: 10px;
+}
 
+footer {
+    background-color: darkolivegreen;
+    color: white;
+font-size: 10px;
+}
+
+footer h3 {width: 70px;
+    float: left;
+    margin-left: 130px;
+}
 
 
