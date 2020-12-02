@@ -128,12 +128,16 @@ img {
         "billede4 covid"
         "mad billede5";
     } 
-HEAD
-     h2 {text-align: center;}
+/* HEAD */
+     h2 {text-align: center;
+    padding-top: 20px ;}
     body {background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
     background-repeat: repeat;
     }
 
+    .tekst p {padding-top: 10px;
+        text-align: center;
+    border: solid 1px brown ;}
 
 
 
