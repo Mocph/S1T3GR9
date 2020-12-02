@@ -110,6 +110,9 @@ img {
         height: 100px;
     }
 
+    .navbar {
+        display: none;
+    }
     .logo {
         height: 50px;
         width: auto;
