@@ -114,8 +114,13 @@ img {
         height: 100px;
     }
 
-    .navbar {
+    .navbarweb {
         display: none;
+    }
+
+    .navbarmobil {
+        display: inline-block;
+        clear: both;
     }
     .logo {
         height: 50px;
