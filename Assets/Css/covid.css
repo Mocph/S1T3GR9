@@ -8,6 +8,7 @@ body {
     padding: 0px;
     background-image: url(../image/jule\ halløj\ med\ opacity.jpg);
     background-repeat: repeat;
+    position: relative;
 }
 header {height: 100px;
 background-color: white;
@@ -59,6 +60,7 @@ padding-top: 30px ;}
 }
 
 p {padding-top: 10px;}
+
 .container {
     border: none;
     margin: auto;
@@ -70,22 +72,63 @@ p {padding-top: 10px;}
     "menulist";
 }
 
-.footerlogo {float: left;
-width: 100px;}
-
-.footerbillede {float: right;
-padding: 10px;
+.footerlogo {
+    grid-area: logo;
+    /* float: left;
+width: 100px;
+padding-top: 5px; */
 }
+
+
 
 footer {
     background-color: darkolivegreen;
     color: white;
 font-size: 10px;
+display:grid;
+grid-gap: 1rem;
+    grid-template-columns: 33% 33% 33%;
+
+    grid-template-rows: 33% 33% ;
+   
+    grid-template-areas:
+    "logo info medlem"
+    ". info medier"
+    ;
+
 }
 
-footer h3 {width: 70px;
-    float: left;
+footer h3 {width: 100px;
+    padding-right: 10px;
+    float: right;
     margin-left: 130px;
+
 }
+
+.footerbillede {
+    grid-area: medlem;
+    /* float: right;
+    padding: 10px; */
+    }
+
+.mail {border: 0;
+padding: 0;}
+
+.footertekst {
+    grid-area: info;
+    /* float: left; */
+line-height: 20px;
+}
+
+.medier {
+    grid-area: medier;
+    /* float: right;
+width: 150px; */
+}
+
+.medier ul {list-style: none;
+display: inline-flex;
+width: 100px;}
+
 
 
