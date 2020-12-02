@@ -135,11 +135,16 @@ img {
     background-repeat: repeat;
     }
 
+<<<<<<< Updated upstream
     .tekst p {padding-top: 10px;
         text-align: center;
     border: solid 1px brown ;}
 
 
+=======
+
+    video {width: 375px;}
+>>>>>>> Stashed changes
 
 }
 
