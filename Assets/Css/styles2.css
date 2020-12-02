@@ -35,6 +35,12 @@ body {
     width: 100%; 
 }
 
+.content-2 {
+    margin: 0; 
+    padding: 25px; 
+    border: 1px solid 
+}
+
 .container {
     border: none;
     margin: auto;
