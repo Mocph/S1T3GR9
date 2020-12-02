@@ -1,0 +1,52 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0; 
+    padding: 0px;
+    background-image: url(../image/jule\ halløj\ med\ opacity.jpg);
+    background-repeat: repeat;
+}
+
+.logo {
+    width: 30%;
+
+}
+
+.headtop {
+    grid-area: header;
+}
+
+.hero {
+    grid-area: heroimage; 
+}
+
+.content-2 {
+    grid-area: content2; 
+}
+
+.menu {
+    grid-area: menulist; 
+}
+
+.heroimage {
+    width: 100%; 
+}
+
+.container {
+    border: none;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "heroimage"
+    "content2"
+    "menulist";
+}
+
+
+
+
+
