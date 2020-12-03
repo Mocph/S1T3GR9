@@ -12,34 +12,46 @@ padding: 0;
 box-sizing: border-box;}
 
 
-.container .åbent {
+<<<<<<< HEAD
+=======
+.container {
     border: none;
     width: 100%;
     margin: auto;
     display: grid;
 }
-
-.navbar {padding-top:120px;
-padding-right: 100px;}
+>>>>>>> 9409dc22e5d34cdf6cbc82a33eaae218f13ba46f
 
 
-header {
-    display: flex;
-    justify-content: space-between;
+.navbarweb {
+padding-right: 100px;
+vertical-align: bottom;
 }
 
-.logo {margin: 0;
-    padding: 0;
+.navbarmobil {padding: 20px;
+display: none;}
+
+header {
+    padding: 10px;
+    display: block;
+    /* display: flex;
+    justify-content: space-between; */
+   
+}
+
+#logo {margin: 0;
+    padding-left: 50px;
+    padding-top: 10px;
 
 }
 
 ul {
     list-style: none;
-    font-size: 30px;
-<<<<<<< Updated upstream
-=======
+    font-size: 20px;
+    float: right;
+    padding-top: 65px;
+    /* vertical-align: bottom; */
     
->>>>>>> Stashed changes
 }
 
 ul li {
@@ -55,6 +67,7 @@ ul li a {
 .video {
     grid-area: video;
     width: 100%;
+    height: auto;
 }
 
 .jul {
@@ -102,10 +115,15 @@ ul li a {
     grid-area: billede5;
 }
 
-img {
+/* img {
     width: 100%;
-    height: auto;
-} 
+    height: auto; */
+
+
+#logomobil #burger {
+    width: 50px;
+    height: 50px;
+}
 
 @media screen and (max-width: 399px) {
     header {
@@ -114,15 +132,23 @@ img {
         height: 100px;
     }
 
-    .navbar {
+    .navbarweb {
         display: none;
     }
-    .logo {
-        height: 50px;
-        width: auto;
+
+    
+
+    .navbarmobil {
+        display: inline-block;
+        clear: both;
     }
 
+
    .container {
+        border: none;
+        width: 100%;
+        margin: auto;
+        display: grid;
         grid-template-columns: 49% 49%;
         grid-template-rows: auto auto auto auto auto auto;
         grid-column-gap: 2%;
@@ -145,7 +171,36 @@ img {
     }
 
     
+    
     video {width: 375px;}
 
 }
 
+@media screen and (min-width: 1000px) {
+
+
+    .container {
+        border: none;
+        width: 50%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 33.333% 33.333% 33.333%;
+        grid-template-rows: 100px 100px 100px 100px 100px;
+        
+        grid-template-areas: 
+        "video video video"
+        "billede1 billet billede2" 
+        "åbent billede3 program"
+        "billede4 jul billede5"
+        "mad billede 1 covid";
+    }
+
+    .container div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container div h2 {
+        text-align: center;
+    }
+}
