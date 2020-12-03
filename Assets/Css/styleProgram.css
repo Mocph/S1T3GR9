@@ -157,17 +157,22 @@ font-size: larger;}
         ul {
             list-style: none;
             font-size: 30px;
+            float: right;
+            padding-top: 60px;
+            padding-left: 600px;
             
         }
         
         ul li {
             display: inline;
             padding: 30px;
+            
         }
         
         ul li a {
             margin: 0;
             padding: 0;
+            
         }
 
     .åbent {
