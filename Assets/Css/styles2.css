@@ -190,6 +190,15 @@ body {
         padding-left: 18px; 
     }
     
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #0E4600;
+            color: white;
+        font-size: 15px;
+        }
+        
+        .ikoncontainer 
 
 }
 
