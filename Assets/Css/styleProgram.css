@@ -46,6 +46,10 @@ td {
     width: 100%;
 }
 
+
+
+
+
 @media screen and (max-width: 399px) {
     header {
         display: block;
@@ -107,6 +111,25 @@ td {
     background-repeat: repeat;
     }
 }
+
+footer {background-color: #0E4600;
+    margin-top: 100px;}
+    
+    .footertekst {
+    color: white;
+    line-height: 25px;
+text-align: center;}
+    
+    .footerlogo {padding-left: 80px;}
+
+    .medier h3 {text-align: center;
+    color: white;
+font-size: larger;}
+
+    .medier img {padding: 5px;
+    margin: 0 auto}
+
+    .ikoncontainer {padding-left: 90px;}
 
 
 @media screen and (min-width: 1000px) {
@@ -180,5 +203,18 @@ td {
         font-size: 15px;
        
     }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #0E4600;
+            color: white;
+        font-size: 15px;
+        }
+        
+        .ikoncontainer {margin: 0;
+        padding: 0;}
+
+        .footerlogo {padding: 0;}
 
 }

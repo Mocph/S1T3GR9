@@ -78,24 +78,29 @@ ul li a {
 }
 
 .billede1 {
-    grid-area: b1;
+    grid-area: billede1;
 }
 
 .billede2 {
-   grid-area: b2;
+   grid-area: billede2;
 }
 
 .billede3 {
-    grid-area: b3;
+    grid-area: billede3;
 }
 
 .billede4 {
-    grid-area: b4;
+    grid-area: billede4;
 }
 
 .billede5 {
     grid-area: b5;
 } */
+
+
+/* img {
+    width: 100%;
+    height: auto; */
 
 
 #logomobil #burger {
@@ -204,7 +209,6 @@ ul li a {
 
    /* .container {
         border: none;
-        width: 100%;
         margin: auto;
         display: grid;
         grid-template-columns: 49% 49%;
@@ -311,7 +315,4 @@ ul li a {
     .container div h2 {
         text-align: center;
     } */
-
-
     
-}

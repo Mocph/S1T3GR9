@@ -32,21 +32,25 @@ body {
 }
 
 .menu {
-    grid-area: menulist; 
+    grid-area: menu1; 
 }
 
 .heroimage {
-    width: 100%; 
+    width: 100%;
+    opacity: 80%; 
 
 }
 
 .content-2 {
-    margin: 37px; 
+    margin: 37px;
+    margin-top: -35px;  
     margin-bottom: 0;
     padding: 25px; 
     border: 1px solid #9d8367;
     line-height: 25px;
-    background-color: rgba(255, 255, 255, 0.644);
+    background-color: white;
+    display: block; 
+    position: relative;
 
 }
 
@@ -55,6 +59,7 @@ body {
     margin-top: 0;  
     padding: 25px;  
     background-color: #9d8367;
+    border: 1px solid #9d8367; 
 
 }
 
@@ -68,28 +73,13 @@ body {
     text-shadow: 1px 1px 2px #463a2e52;
 }
 
-
-
-.li1 {
-    float: left;
-    margin-left: -30px; 
-    font-weight: bold;
-}
-
-.li2 {
-    float: right; 
-    margin-right: 25px; 
-    font-weight: bold;
-
-}
-
-.li3 {
-    float: left; 
-    margin-left: 15px; 
-}
-
-.p2 {
+.p2, .p3 {
     color: whitesmoke; 
+}
+
+.p3 {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #463a2e52;
 }
 
 
@@ -142,7 +132,7 @@ body {
     "heroimage"
     "content2"
     "sidebar"
-    "menulist";
+    "menu1";
 }
 
 @media (min-width: 500px) {
@@ -152,24 +142,63 @@ body {
         "header header"
         "heroimage heroimage"
         "content2 sidebar"
-        "menulist menulist";
+        "menu1 .";
     }
     .content-2 {
         margin: 37px;
         padding: 25px;
-        margin-right: 0px;  
+        margin-right: 0px;
+        margin-top: -80px;   
+    }
+
+    .p2 {
+        padding: 25px; 
+    }
+
+    .p3 {
+        padding-left: 25px; 
     }
 
     .content-1 {
         padding: 25px; 
         margin: 37px; 
-        margin-left: 0px;   
+        margin-left: 0px;
+        margin-top: -80px; 
+        display: block; 
+        position: relative; 
     }
 
-    .DivAside {
-        margin-top: 67px; 
+    .Article {
+         margin-top: 40px; 
     }
 
+    .headline1 {
+        width: 85%;
+
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .h2 {
+        text-align: left;
+    }
+
+    .headline1 {
+        text-align: left;
+        padding-left: 18px; 
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #0E4600;
+            color: white;
+        font-size: 15px;
+        }
+        
+        .ikoncontainer 
 
 }
 
