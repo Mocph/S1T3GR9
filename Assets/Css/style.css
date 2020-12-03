@@ -11,6 +11,15 @@ html body {
 padding: 0;
 box-sizing: border-box;}
 
+
+.container {
+    border: none;
+    width: 100%;
+    margin: auto;
+    display: grid;
+}
+
+
 .navbarweb {
 padding-right: 100px;
 vertical-align: bottom;
@@ -83,24 +92,24 @@ ul li a {
 }
 
 .billede1 {
-    grid-area: b1;
+    grid-area: billede1;
 }
    
 
 .billede2 {
-   grid-area: b2;
+   grid-area: billede2;
 }
 
 .billede3 {
-    grid-area: b3;
+    grid-area: billede3;
 }
 
 .billede4 {
-    grid-area: b4;
+    grid-area: billede4;
 }
 
 .billede5 {
-    grid-area: b5;
+    grid-area: billede5;
 }
 
 /* img {
@@ -136,7 +145,6 @@ ul li a {
 
    .container {
         border: none;
-        width: 100%;
         margin: auto;
         display: grid;
         grid-template-columns: 49% 49%;
@@ -168,7 +176,6 @@ ul li a {
 
 @media screen and (min-width: 1000px) {
 
-    p {display: none;}
 
     .container {
         border: none;
@@ -177,12 +184,13 @@ ul li a {
         display: grid;
         grid-template-columns: 33.333% 33.333% 33.333%;
         grid-template-rows: 100px 100px 100px 100px 100px;
+        
         grid-template-areas: 
         "video video video"
-        "b1 billet b2" 
-        "åbent b3 program"
-        "b4 jul b5"
-        "mad b1 covid";
+        "billede1 billet billede2" 
+        "åbent billede3 program"
+        "billede4 jul billede5"
+        "mad billede1 covid";
     }
 
     .container div img {
@@ -193,6 +201,4 @@ ul li a {
     .container div h2 {
         text-align: center;
     }
-
-    
 }
