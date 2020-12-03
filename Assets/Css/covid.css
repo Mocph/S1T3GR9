@@ -9,11 +9,14 @@ body {
     background-image: url(../image/jule\ halløj\ med\ opacity.jpg);
     background-repeat: repeat;
     position: relative;
+    background-size: contain;
 
 }
 header {height: 100px;
 background-color: white;
 }
+
+#burger {display: none;}
 
 .logo {
     width: 30%;
@@ -82,7 +85,7 @@ background-color: #0E4600;
 font-size: 15px;
 }
 
-.ikon {padding: 5px};}
+.ikon {padding: 5px}
     
     /* float: left;
 width: 100px;
