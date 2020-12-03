@@ -12,6 +12,15 @@ padding: 0;
 box-sizing: border-box;}
 
 
+<<<<<<< HEAD
+=======
+.container {
+    border: none;
+    width: 100%;
+    margin: auto;
+    display: grid;
+}
+>>>>>>> 9409dc22e5d34cdf6cbc82a33eaae218f13ba46f
 
 
 .navbarweb {
