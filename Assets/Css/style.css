@@ -292,6 +292,26 @@ ul li a {
         vertical-align: top;
         border: none;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #0E4600;
+            color: white;
+        font-size: 15px;
+        }
+        
+        .ikoncontainer {margin: 0;
+        padding-left: 0;}
+
+        .footerlogo {padding: 0;
+        margin: 0;}
+
+
+        
+        .medier {padding:0;
+        margin: 0;}
+
     /* .container {
         border: none;
         width: 100%;
