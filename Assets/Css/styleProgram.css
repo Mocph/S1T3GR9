@@ -53,12 +53,18 @@ td {
         height: 100px;
     }
 
+    .navbarmobil {
+        display: inline-block;
+        clear: both;
+    }
+
     .navbar {
         display: none;
     }
-    .logo {
-        height: 50px;
+   
+    #logomobil #burger {
         width: 50px;
+        height: 50px;
     }
 
     .åbent {
@@ -100,4 +106,79 @@ td {
     body {background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
     background-repeat: repeat;
     }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .navbarmobil {
+        display: none;
+    }
+
+    .navbar {
+        padding-top:120px;
+        padding-right: 100px;
+        }
+
+        .logo {margin: 0;
+            padding: 0;
+        
+        }
+        
+        ul {
+            list-style: none;
+            font-size: 30px;
+            
+        }
+        
+        ul li {
+            display: inline;
+            padding: 30px;
+        }
+        
+        ul li a {
+            margin: 0;
+            padding: 0;
+        }
+
+    .åbent {
+        justify-content: space-between;
+        grid-template-columns: 5% 40% 40% 5%;
+        grid-template-rows: auto auto;
+        grid-row-gap: 2%;
+        grid-template-areas: 
+        ". hero hero ."
+        ". åbningstider program .";
+    }
+
+
+    table {
+        border: none;
+        border-spacing: 0px;
+        line-height: 30px;
+        width: 100%;
+        margin: 0; 
+    }
+
+    th {
+        background-color: #9d8367;
+        text-align: left;
+        padding: 0 10px;
+        color: white;
+    }
+
+    td {
+        background-color: rgba(255, 255, 255, 0.648);
+        border-bottom: #9d8367 2px solid;
+        padding: 0 10px;
+        font-size: 15px;
+       
+    }
+
 }
