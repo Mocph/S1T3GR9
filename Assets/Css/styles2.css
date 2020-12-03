@@ -59,6 +59,7 @@ body {
     margin-top: 0;  
     padding: 25px;  
     background-color: #9d8367;
+    border: 1px solid #9d8367; 
 
 }
 
@@ -72,28 +73,13 @@ body {
     text-shadow: 1px 1px 2px #463a2e52;
 }
 
-
-
-.li1 {
-    float: left;
-    margin-left: -30px; 
-    font-weight: bold;
-}
-
-.li2 {
-    float: right; 
-    margin-right: 25px; 
-    font-weight: bold;
-
-}
-
-.li3 {
-    float: left; 
-    margin-left: 15px; 
-}
-
-.p2 {
+.p2, .p3 {
     color: whitesmoke; 
+}
+
+.p3 {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #463a2e52;
 }
 
 
@@ -169,6 +155,10 @@ body {
         padding: 25px; 
     }
 
+    .p3 {
+        padding-left: 25px; 
+    }
+
     .content-1 {
         padding: 25px; 
         margin: 37px; 
@@ -178,7 +168,7 @@ body {
         position: relative; 
     }
 
-    .DivAside {
+    .Article {
          margin-top: 40px; 
     }
 
@@ -194,6 +184,12 @@ body {
     .h2 {
         text-align: left;
     }
+
+    .headline1 {
+        text-align: left;
+        padding-left: 18px; 
+    }
+    
 
 }
 
