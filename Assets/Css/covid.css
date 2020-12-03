@@ -92,6 +92,8 @@ footer {
     background-color: darkolivegreen;
     color: white;
 font-size: 10px;
+display: flex;
+justify-content: space-around;
 /* display:grid;
 grid-gap: 1rem;
     grid-template-columns: 33% 33%;
