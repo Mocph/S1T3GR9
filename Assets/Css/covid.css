@@ -76,8 +76,9 @@ p {padding-top: 10px;}
 
 .footerlogo {
     grid-area: logo;
-    padding: 10px;
-    margin: auto;
+    padding-top: 10px;
+    padding-left: 85px;
+    
     /* float: left;
 width: 100px;
 padding-top: 5px; */
@@ -122,7 +123,8 @@ footer h3 {
 .footerbillede {
     /* grid-area: medlem; */
     width: 100px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    margin: 0 auto;
     /* float: right;
     padding: 10px; */
     }
@@ -131,6 +133,9 @@ footer h3 {
 padding: 0;}
 
 .footertekst {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    text-align: center;
     /* grid-area: info; */
     /* float: left; */
 line-height: 20px;
@@ -138,21 +143,23 @@ line-height: 20px;
 
 .ikon {
     padding: 5px;
+    margin-left: 3px;
     /* grid-area: medier; */
 } 
 
 .medier {
     /* grid-area: medier; */
-    width: 100px
+    
+    padding-left: 90px;
+    
     /* float: right;
 width: 150px; */
 }
 
+.medier h3 {
+font-size: 20px;
+width: 300px;}
 
-.medier ul {list-style: none;
-display: inline-flex;
-
-width: 100px;
 }
 
 /* } */
