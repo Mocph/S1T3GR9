@@ -142,7 +142,8 @@ font-size: larger;}
 @media screen and (min-width: 1000px) {
 
     body {background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
-    background-size: contain;}
+    background-size: contain;
+background-position: top;}
 
     header {
         background-color: white;
@@ -156,9 +157,16 @@ font-size: larger;}
     }
 
     .navbar {
-        padding-top:120px;
-        padding-right: 100px;
-        }
+        /* align-items: center;
+    display: flex; */
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+    display: flex;
+    float: right;
+    padding-top: 60px;
+    padding-left: 200px;
+}      
 
         .logo {margin: 0;
             padding: 0;
