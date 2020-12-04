@@ -47,8 +47,13 @@ body {
 }
 
 .footer {
-   background-color: rgba(6, 12, 44, 0.904);
+   background-color: #092003ef;
    color: white; 
+}
+
+.link-mail {
+    color:#9d8367; 
+    text-shadow: 0.5px 0.5px 1px #0c0600;
 }
 
 
@@ -208,7 +213,7 @@ body {
     
 
     .logo {
-        width: 20%;
+        width: 10%;
     }
 
     .h2 {
@@ -255,18 +260,29 @@ body {
     nav.web-nav {
         margin: 5px; 
         padding: 0;
-        justify-content: end;
+        float: right; 
     }
 
     nav.web-nav ul { 
         margin-right: 20px;
+        list-style: none;
+        margin-top: 0; 
+        font-family: 'bookman old style';
     }
 
-    nav.main-nav ul li {
+    nav.web-nav ul li {
         display: inline-block; 
-        padding: 15px 0px;
+        padding: 20px 10px;
+
         
     }
+
+    .web-nav a:hover {
+        color: rgb(46, 4, 4); 
+    }
+
+    
+
 
     .medier, .footertekst, .footertekst1, .footertekst2 {
         display: inline-table;
