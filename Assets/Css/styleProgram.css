@@ -47,7 +47,14 @@ td {
 }
 
 
-
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 16px;
+    }
+    
+    .ikoncontainer 
 
 
 @media screen and (max-width: 399px) {
@@ -55,31 +62,34 @@ td {
         background-color: white;
         display: flex;
         justify-content: space-between;
-        width: 100%;
-        height: 100px;
         position: fixed;
         overflow: hidden;
     }
 
     .navbarmobil {
         display: inline-block;
-        clear: both;
-        padding-top: 20px;
-        padding-right: 15px;
+        padding-right: 15px; 
+        padding-top: 10px;   
     }
 
-    #logo {height: 100px;
-    width: 150px;}
+    .logo {
+        width: 63%; 
+    }
+
+    .burger {
+        width: 20%;
+        float: right;
+    }
 
     .navbar {
         display: none;
     }
-   
+   /*
     #logomobil #burger {
         width: 50px;
         height: 50px;
     }
-
+*/
     .åbent {
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto;
@@ -121,6 +131,31 @@ td {
     }
 }
 
+.logoF {
+    width: 40%;
+    margin-left: 37px; 
+}
+
+.footertekst, .footertekst1, .medier {
+    margin-left: 37px; 
+}
+
+.footer {
+    background-color: #092003ef;
+    color: white; 
+ }
+ 
+ .link-mail {
+     color:#9d8367; 
+     text-shadow: 0.5px 0.5px 1px #0c0600;
+ }
+
+ .program{
+    padding-bottom: 100px; 
+ }
+
+
+/*
 footer {background-color: #0E4600;
     margin-top: 90px;}
     
@@ -139,7 +174,7 @@ font-size: larger;}
     margin: 0 auto}
 
     .ikoncontainer {padding-left: 90px;}
-
+*/
 
 @media screen and (min-width: 1000px) {
 
@@ -170,14 +205,51 @@ background-position: top;}
     display: flex;
     float: right;
     padding-top: 60px;
-    padding-left: 200px;
+    
 }      
 
-        .logo {margin: 0;
-            padding: 0;
-        
+        .logo {
+            width: 60%;
+            padding: 15px; 
+            margin-left: 37px; 
         }
+
+        .navbar {
+            margin: 5px; 
+            padding: 0;
+            float: right; 
+        }
+    
+        .navbar ul { 
+            margin-right: 50px;
+            list-style: none;
+            margin-top: 18px; 
+            font-family: 'bookman old style';
+            font-size: 30px; 
+        }
+    
+        .navbar ul li {
+            display: inline-block; 
+            padding: 20px 10px;
+            text-decoration: none;
+            margin-top: 25px; 
+            
+        }
+    
+        .navbar a {
+            text-decoration: none;
+            color: black; 
+            
+        }
+    
+        .navbar a:hover {
+            color:#9d8367; 
+        }
+
+      
         
+
+        /*
         ul {
             list-style: none;
             font-size: 30px;
@@ -192,7 +264,7 @@ background-position: top;}
             margin: 0;
             padding: 0;
         }
-
+*/
     .åbent {
         justify-content: space-between;
         grid-template-columns: 5% 40% 40% 5%;
@@ -227,6 +299,27 @@ background-position: top;}
        
     }
 
+
+    .medier, .footertekst, .footertekst1, .footertekst2 {
+        display: inline-table;
+        padding: 25px;
+        margin-left: 37px;  
+      
+    }
+
+    .logoF {
+        width: 80%;
+        margin-top: 25px; 
+    }
+    
+    .footerlogo {
+        width: 200px;
+        padding: 0; 
+        float: right;
+    }
+
+
+/*
     footer {
         display: flex;
         justify-content: space-evenly;
