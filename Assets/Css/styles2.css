@@ -12,6 +12,7 @@ body {
 
 .logo {
     width: 30%;
+    float: left;
 
 }
 
@@ -142,6 +143,19 @@ body {
     margin-bottom: 250px; 
 }
 
+.mobile-nav {
+    display: block; 
+    padding-top: 12px;
+    padding-right: 15px;
+    
+}
+
+.burger {
+    width: 10%;
+    float: right;
+}
+
+
 
 .web-nav {
     display: none;
@@ -215,6 +229,7 @@ body {
     .logo {
         width: 12%;
         padding: 15px; 
+        margin-left: 37px; 
         
     }
 
