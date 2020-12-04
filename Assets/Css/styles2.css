@@ -235,7 +235,7 @@ body {
     
 
     .logo {
-        width: 12%;
+        width: 20%;
         padding: 15px; 
         margin-left: 37px; 
         
@@ -267,13 +267,12 @@ body {
     .menu ul li{
         display: inline-block; 
     }
-    
+
     footer {
         display: flex;
         justify-content: space-evenly;
-        background-color: #0E4600;
-            color: white;
-        font-size: 15px;
+        color: white;
+        font-size: 16px;
         }
         
         .ikoncontainer 
@@ -294,6 +293,7 @@ body {
         margin-top: 0px; 
         font-family: 'bookman old style';
         font-size: 20px; 
+        margin-right: 50px; 
     }
 
     nav.web-nav ul li {
