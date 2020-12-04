@@ -35,15 +35,26 @@ body {
     grid-area: menu1; 
 }
 
+.footer {
+    grid-area: footer; 
+}
+
+
 .heroimage {
     width: 100%;
     opacity: 80%; 
 
 }
 
+.footer {
+   background-color: rgba(6, 12, 44, 0.904);
+   color: white; 
+}
+
+
 .content-2 {
     margin: 37px;
-    margin-top: -35px;  
+    margin-top: -80px;  
     margin-bottom: 0;
     padding: 25px; 
     border: 1px solid #9d8367;
@@ -107,21 +118,29 @@ body {
 
 .menu ul {
     list-style: none;
-    display: block; 
-     
-
-    
+    display: block;   
 }
 
 .menu li {
     padding: 5px; 
     margin: 10px;  
     border-bottom: 1px solid #9d8367;
-    width: 260px; 
-    
+    width: 260px;  
 
 }
 
+.headtop {
+    background-color: white;
+}
+
+.menu {
+    margin-bottom: 250px; 
+}
+
+
+.web-nav {
+    display: none;
+}
 
 .container {
     border: none;
@@ -132,8 +151,12 @@ body {
     "heroimage"
     "content2"
     "sidebar"
-    "menu1";
+    "menu1"
+    "footer";
+
 }
+
+
 
 @media (min-width: 500px) {
     .container {
@@ -142,8 +165,18 @@ body {
         "header header"
         "heroimage heroimage"
         "content2 sidebar"
-        "menu1 .";
+        "menu1 menu1"
+        "footer footer";
     }
+
+    .web-nav {
+        display: grid; 
+    }
+
+    .mobile-nav {
+        display: none; 
+    }
+
     .content-2 {
         margin: 37px;
         padding: 25px;
@@ -172,10 +205,7 @@ body {
          margin-top: 40px; 
     }
 
-    .headline1 {
-        width: 85%;
-
-    }
+    
 
     .logo {
         width: 20%;
@@ -186,10 +216,66 @@ body {
     }
 
     .headline1 {
-        text-align: left;
-        padding-left: 18px; 
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px #2c1806ef;
+    
     }
     
+    
+    .menu {
+        background-color: #9d8367;
+        padding: 25px; 
+        margin-top: 200px; 
+    }
+
+    .menu li {
+        border-bottom: 1px solid rgb(95, 6, 6);
+        color: white;
+    }
+
+    .menu ul li{
+        display: inline-block; 
+    }
+    
+
+   .logo {
+       float: left;
+   }
+
+    nav.web-nav {
+        margin: 5px; 
+        padding: 0;
+        justify-content: end;
+    }
+
+    nav.web-nav ul { 
+        margin-right: 20px;
+    }
+
+    nav.main-nav ul li {
+        display: inline-block; 
+        padding: 15px 0px;
+        
+    }
+
+    .medier, .footertekst, .footertekst1, .footertekst2 {
+        display: inline-table;
+        padding: 25px;
+        margin-left: 37px;  
+      
+    }
+
+    .logoF {
+        width: 80%;
+        margin-top: 25px; 
+    }
+    
+    .footerlogo {
+        width: 200px;
+        padding: 0; 
+        float: right;
+    }
 
 }
 
