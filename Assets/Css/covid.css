@@ -1,0 +1,147 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0; 
+    padding: 0px;
+    background-image: url(../Image/jule\ halløj\ med\ opacity.jpg);
+    /* background-repeat: repeat; */
+    /* position: relative; */
+    background-size: contain;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    /* height: 100px; */
+background-color: white;
+}
+
+.navbar {padding-top: 60px;}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+ul li {
+    display: inline;
+    padding: 30px;}
+
+ul li a {margin: 0;
+padding: 0;}
+
+#burger {display: none;}
+
+.logo {
+    width: 20%;
+    height: 70%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navbarmobil {float: right;
+
+padding-right: 20px;
+padding-top: 30px ;}
+
+.headtop {
+    grid-area: header;
+}
+
+.hero {
+    grid-area: heroimage; 
+}
+
+.content-2 {
+    grid-area: content2; 
+}
+
+.menu {
+    grid-area: menulist; 
+}
+
+.heroimage {
+    width: 100%; 
+}
+
+.content-2 {
+    margin: 37px; 
+    padding: 25px; 
+    border: 1px solid #9d8367;
+    line-height: 25px;
+    font-family: 'bookman old style';
+    
+}
+
+.h2 {
+    text-align: center;
+    color: #9d8367; 
+    text-shadow: 0.5px 0.5px 1px #9d836752;
+}
+
+p {padding-top: 10px;}
+
+.container {
+    border: none;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "heroimage"
+    "content2"
+    "menulist";
+}
+
+footer {
+display: flex;
+justify-content: space-evenly;
+background-color: #0E4600;
+    color: white;
+font-size: 15px;
+}
+
+.ikon {padding: 5px}
+    
+    /* float: left;
+width: 100px;
+padding-top: 5px; */
+}
+
+@media screen and (max-width: 400px) {
+
+.navbar {display: none;}
+
+video {width: 375px;}
+
+footer {background-color: #0E4600;
+    margin-top: 90px;}
+    
+    .footertekst {
+    color: white;
+    line-height: 25px;
+text-align: center;}
+    
+    .footerlogo {padding-left: 80px;}
+
+    .medier h3 {text-align: center;
+    color: white;
+font-size: larger;}
+
+    .medier img {padding: 5px;
+    margin: 0 auto}
+
+    .ikoncontainer {padding-left: 90px;}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+.hero {
+    /* padding-top: 120px; */
+}
+
+}
