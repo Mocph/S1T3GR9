@@ -213,7 +213,9 @@ body {
     
 
     .logo {
-        width: 10%;
+        width: 12%;
+        padding: 15px; 
+        
     }
 
     .h2 {
@@ -280,9 +282,6 @@ body {
     .web-nav a:hover {
         color: rgb(46, 4, 4); 
     }
-
-    
-
 
     .medier, .footertekst, .footertekst1, .footertekst2 {
         display: inline-table;
