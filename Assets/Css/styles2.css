@@ -155,6 +155,14 @@ body {
     float: right;
 }
 
+.logoF {
+    width: 40%;
+    margin-left: 37px; 
+}
+
+.footertekst, .footertekst1, .medier {
+    margin-left: 37px; 
+}
 
 
 .web-nav {
@@ -285,6 +293,7 @@ body {
         list-style: none;
         margin-top: 0; 
         font-family: 'bookman old style';
+        font-size: 20px; 
     }
 
     nav.web-nav ul li {
