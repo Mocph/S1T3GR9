@@ -299,18 +299,51 @@ ul li a {
         background-color: #0E4600;
             color: white;
         font-size: 15px;
+        padding-bottom: 50px;
         }
         
-        .ikoncontainer {margin: 0;
-        padding-left: 0;}
-
-        .footerlogo {padding: 0;
-        margin: 0;}
-
-
+        #logo {
+            /* height:100px;
+            width:150px; */
+        }
         
-        .medier {padding:0;
-        margin: 0;}
+        .footerlogo {
+            height: 100px;
+            width: 150px;
+            padding: 0;
+            margin: 0;
+        }
+            
+         .footertekst {
+            padding-top: 20px;
+            margin: 0;
+        text-align: center;
+        line-height: 25px;}
+        
+        .kontakt {text-align: center;
+        padding-top: 30px;
+    line-height: 25px;}
+        
+        .mail a {
+            text-decoration: none;}
+            
+        .medier {
+            padding-top: 30px;
+            margin: 0;
+        text-align: center;}
+        
+        .medier img {
+            padding: 5px;
+        }
+        
+        .ikoncontainer {
+            padding-top: 20px;}
+        
+        .ikon {margin: 0;
+        padding: 0;
+        }
+
+        .medier h3 {padding: 0;}
 
     /* .container {
         border: none;
@@ -336,3 +369,29 @@ ul li a {
         text-align: center;
     } */
     
+    }
+
+
+    @media screen and (max-width: 400px) {
+        .navbarmobil {
+            /* display: inline-block;
+            clear: both; */
+            /* padding-top: 20px;
+            padding-right: 15px; */
+            float: right;
+        }
+    
+header {display: flex;
+position: relative;
+/* background-color: white; */
+}
+
+        #burger {
+            display: flex;
+            justify-content: right;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            right: 0;
+    }
+    }
