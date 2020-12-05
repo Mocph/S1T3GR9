@@ -19,7 +19,7 @@ header {
 background-color: white;
 }
 
-.navbar {padding-top: 60px;}
+.navbar {padding-top: 70px;}
 
 ul {
     list-style: none;
@@ -31,7 +31,9 @@ ul li {
     display: inline;
     padding: 30px;}
 
-ul li a {margin: 0;
+ul li a {
+    text-decoration: none;
+    margin: 0;
 padding: 0;}
 
 #burger {display: none;}
@@ -85,7 +87,7 @@ padding-top: 30px ;}
 
 p {padding-top: 10px;}
 
-.container {
+/* .container {
     border: none;
     margin: auto;
     display: grid;
@@ -94,7 +96,7 @@ p {padding-top: 10px;}
     "heroimage"
     "content2"
     "menulist";
-}
+} */
 
 footer {
 display: flex;
@@ -141,7 +143,8 @@ font-size: larger;}
 @media screen and (min-width: 1000px) {
 
 .hero {
-    /* padding-top: 120px; */
+    padding: 0;
+    margin: 0;
 }
 
 }
