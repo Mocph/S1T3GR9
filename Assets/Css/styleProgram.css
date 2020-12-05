@@ -232,6 +232,10 @@ font-size: larger;}
         
     }
 
+    .web-nav a:hover {
+        color:#9d8367; 
+    }
+
     .navbarmobil {
         display: none;
     }
