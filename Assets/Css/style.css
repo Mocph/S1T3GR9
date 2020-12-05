@@ -341,4 +341,28 @@ position: relative;
         width: 70%;
     }
 
+    footer {
+        background-color: #0E4600;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .footertekst {margin-left: 20px;}
+
+    .footertekst1 {margin-left: 20px;}
+
+    .logoF {width: 40%;
+    margin-left: 10px;}
+
+    .link-mail {
+        color:#9d8367; 
+        text-shadow: 0.5px 0.5px 1px #0c0600;
+    }
+
+    .medier {margin-left: 20px;}
+
+    .medier p {margin-right: 10px;}
+
+    .ikon {padding: 5px;}
+
     }
