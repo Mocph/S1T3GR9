@@ -258,7 +258,7 @@ ul li a {
     footer {
         display: flex;
         justify-content: space-evenly;
-        background-color: #0E4600;
+        background-color: #092003ef;
             color: white;
         font-size: 15px;
         padding-bottom: 50px;
@@ -342,7 +342,7 @@ position: relative;
     }
 
     footer {
-        background-color: #0E4600;
+        background-color: #092003ef;
         color: white;
         margin-top: 20px;
     }
