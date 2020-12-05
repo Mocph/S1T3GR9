@@ -81,6 +81,10 @@ nav.web-nav a {
     
 }
 
+.web-nav a:hover {
+    color:#9d8367; 
+}
+
 .ikon {width: 40px;
 height: 40px;}
 
