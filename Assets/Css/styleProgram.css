@@ -173,6 +173,10 @@ footer {
      .logoF {
          width: 30%;
      }
+
+     .footertekst, .footertekst1, .medier {
+        margin-left: 37px; 
+    }
 }
 
 
