@@ -39,14 +39,16 @@ background-size: contain;
 header {color: white;
     background-color: white;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 position: relative;}
 
 
 
 
-.logo {width: 150px;
-height: 100px;}
+.logo {width: 60%;
+    margin-left: 55px;
+    margin-top: 10px;
+}
 
 .navbarmobil {display: none;}
 
