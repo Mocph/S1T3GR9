@@ -40,7 +40,10 @@ header {color: white;
     background-color: white;
 display: flex;
 justify-content: space-between;
-position: relative;}
+position: fixed;
+overflow: hidden;
+z-index: 1;
+width: 100%;}
 
 
 

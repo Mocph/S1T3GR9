@@ -198,6 +198,12 @@ body {
         "footer footer";
     }
 
+    header {
+        overflow: hidden;
+        position: fixed;
+        z-index: 1;
+    }
+
     .web-nav {
         display: grid; 
     }

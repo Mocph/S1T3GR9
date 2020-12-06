@@ -229,8 +229,10 @@ font-size: larger;}
         position: fixed;
         overflow: hidden;
         width: 100%;
+        z-index: 1;
         
     }
+    
 
     .web-nav a:hover {
         color:#9d8367; 
